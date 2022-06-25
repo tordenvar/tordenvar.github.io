@@ -3,32 +3,37 @@
 
 ## FAQ
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
+### How are the points calculated?
 ```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+If the question is answered correctly within the first 3 seconds, then the player is awarded with the full 25 points possible. If the player takes longer to answer but still gets it correctly, the player gets as many points as there are seconds left on the timer. If the player answers the question incorrectly or runs out of time, then no points are awarded. More game modes/point calculations are to be added in versions following 1.0.
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+### What is the system to determine a tiebreaker?
+```markdown
+Currently, a tiebreaker between two players is determined by a pseudo-random calculation.
+```
 
-### Jekyll Themes
+### Why can't I start a game with more than 6 players?
+```markdown
+Pass The Trivia currently only supports gameplay for up to 6 players at a time.
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/tordenvar/tordenvar.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### Why can't I start a game with more than 20 rounds?
+```markdown
+Games more than 20 rounds were found to be drawn out and lethargic during the post-release testing phase, so currently the amount of rounds must be between 0 and 20.
+```
 
-### Support or Contact
+### There is a bug and the game is not functioning correctly.
+```markdown
+Please email us at tordenvarapps@gmail.com! The app is currently in its first version so bugs may happen, even after lengthy vigorous testing.
+```
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+
+## Questions? Comments? Concerns? Suggestions?
+
+```markdown
+Please shoot us an email at tordenvarapps@gmail.com. We are a very small development team, so feedback is greatly appreciated, and if you love Pass The Trivia, please give us 5 starts on the App Store!
+
+Thanks!
+```
+
