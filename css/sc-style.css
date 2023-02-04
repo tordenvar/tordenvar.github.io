@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Manrope:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+    font-size: 32px;
+    color: white;
+}
+
+header {
+    width: 100%;
+    padding: 0 5%;
+    background: #916911;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.logo {
+    height: 150px;
+}
+
+.title {
+    color: white;
+    position: absolute;  
+    top: 50%;  
+    left: 50%;  
+    transform: translate(-50%, -50%); 
+}
+
+.nav-links {
+    padding: 12px 0;
+}
+
+.nav-links li {
+    margin: 0 10px;
+    font-size: 14px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 0;
+    font-size: 14px;
+    position: relative;
+    display: flex;
+}
+
+.nav-links li a::after {
+    content: '';
+    background: #FFFFFF;
+    width: 0;
+    height: 2.5px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: width 0.75s;
+}
+
+.nav-links li a:hover::after {
+    width: 100%;
+}
+
+main {
+    margin-top: 50px;
+    text-align: center;
+    padding: 0 20%;
+}
+
+main h1 {
+    color: black;
+    padding-bottom: 60px;
+    font-size: 40px;
+    
+}
+
+main h2 {
+    color: #916911;
+    font-size: 28px;
+    font-weight: 400;
+    padding-bottom: 16px;
+    text-align: left;
+}
+
+main p {
+    color: black;
+    font-size: 28px;
+    font-weight: 200;
+    padding-bottom: 16px;
+    text-align: left;
+    padding-bottom: 50px;
+}
+main a {
+    color: blue;
+    font-size: 28px;
+    font-weight: 200;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Manrope', sans-serif;
+        font-size: 14px;
+        color: white;
+    }
+    
+    header {
+        width: 100%;
+        padding: 0 5%;
+        background: #916911;
+        position: relative;
+    }
+    
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+    }
+    
+    .logo {
+        height: 75px;
+    }
+    
+    .title {
+        color: white;
+        position: absolute;  
+        top: 50%;  
+        left: 50%;  
+        transform: translate(-50%, -50%); 
+    }
+    
+    .nav-links {
+        padding: 24px 0;
+    }
+    
+    .nav-links li {
+        margin: 0 5px;
+        font-size: 10px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    
+    .nav-links li a {
+        text-decoration: none;
+        color: #fff;
+        padding: 5px 0;
+        font-size: 10px;
+        position: relative;
+        display: flex;
+    }
+    
+    .nav-links li a::after {
+        content: '';
+        background: #FFFFFF;
+        width: 0;
+        height: 2.5px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        transition: width 0.75s;
+    }
+    
+    .nav-links li a:hover::after {
+        width: 100%;
+    }
+    
+    main {
+        margin-top: 12.5px;
+        text-align: center;
+        padding: 0 10%;
+    }
+    
+    main h1 {
+        color: black;
+        padding-bottom: 30px;
+        font-size: 20px;
+        
+    }
+    
+    main h2 {
+        color: #916911;
+        font-size: 14px;
+        font-weight: 400;
+        padding-bottom: 8px;
+        text-align: left;
+    }
+    
+    main p {
+        color: black;
+        font-size: 14px;
+        font-weight: 200;
+        padding-bottom: 8px;
+        text-align: left;
+        padding-bottom: 28px;
+    }
+    main a {
+        color: blue;
+        font-size: 14px;
+        font-weight: 200;
+        text-decoration: none;
+    }
+  }
